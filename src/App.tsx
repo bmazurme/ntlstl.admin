@@ -4,10 +4,10 @@ import {
   ListGuesser,
   EditGuesser,
   ShowGuesser,
-} from "react-admin";
-import { Layout } from "./Layout";
-import { dataProvider } from "./dataProvider";
-import { authProvider } from "./authProvider";
+} from 'react-admin';
+import { Layout } from './layouts/layout';
+import { dataProvider } from './data-provider';
+import { authProvider } from './auth-provider';
 
 export const App = () => (
   <Admin
